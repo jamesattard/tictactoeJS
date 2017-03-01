@@ -3,14 +3,14 @@
     <meta charset="UTF-8">
     <title>Tic-Tac-Toe</title>
 
-    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,500">
     <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
     <link rel="stylesheet" href="css/style.css">
 
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
-    <script src="js/index.js"></script>
+    <script src="js/script.js"></script>
     <script src="https://use.fontawesome.com/80c9a7f760.js"></script>
   </head>
 
@@ -25,8 +25,20 @@
 
     <!-- Tic-Tac-Toe Container -->
     <div class="container">
-      <div class="board">
-
+      <div class="tictactoe">
+        <div id="tttBoard">
+          <a class="tttBox" id="spot1"></a>
+          <a class="tttBox" id="spot2"></a>
+          <a class="tttBox" id="spot3"></a><br>
+          <a class="tttBox" id="spot4"></a>
+          <a class="tttBox" id="spot5"></a>
+          <a class="tttBox" id="spot6"></a><br>
+          <a class="tttBox" id="spot7"></a>
+          <a class="tttBox" id="spot8"></a>
+          <a class="tttBox" id="spot9"></a>
+        </div>
+        <div class="clearfix"></div>
+        <a class="btn btn-danger btn-lg" id="resetBtn"><i class="fa fa-refresh"></i> Reset Game</a>
       </div>
     </div>
 
